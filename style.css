@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    width: 400px;
+    background-color: rgb(142, 74, 153);
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 10px solid;
+    border-color: #f4f4f9;
+    box-shadow: 0px 5px 10px rgb(82, 82, 82);
+    transition: all 0.5s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow:
+        5px 5px 30px rgb(115, 8, 255),
+        5px 8px 30px rgb(58, 0, 111);
+}
+
+.titulo {
+    text-align: center;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    border: 3px solid rgb(255, 207, 13);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.titulo h1 {
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.titulo h2 {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+img {
+    width: 160px;
+    height: auto;
+    border: 1px solid #333;
+    margin-bottom: 20px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.informacoes {
+    width: 100%;
+    padding-left: 0px;
+}
+
+.informacoes ol {
+    text-align: left;
+    font-size: 14px;
+    line-height: 2;
+    color: #000000;
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2px;
+    color: antiquewhite;
+    background-color: rgb(138, 25, 129);
+    margin-bottom: 13px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    padding-left: 10px;
+    box-shadow: 0px 5px 5px rgb(41, 41, 41);
+    border-radius: 5px;
+}
+
+.valores {
+    color: black;
+    background-color: antiquewhite;
+    width: 65px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    padding: 2px;
+}
+
+.card:hover {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbxmpMWV4F-pcZZ2eZ8O8cBidrFusc3ppNTTthAGW9KQ&s=10);
+}
+
+.valores:hover {
+    background: url();
+}
+
+.card2:hover{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3nJYHzXtoJlthqAmZ0Ppneq72O8mV-kGMeaSKqTXuw&s=10);
+}
+.informacoes2 {
+    width: 100%;
+    padding-left: 0px;
+}
+
+.informacoes2 ol {
+    text-align: left;
+    font-size: 14px;
+    line-height: 2;
+    color: #000000;
+    list-style-type: none;
+}
+.valores {
+    color: black;
+    background-color: antiquewhite;
+    width: 65px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    padding: 2px;
+}
+.valores:hover {
+    background: url();
+}
+
+.card2 {
+    width: 400px;
+    background-color: rgb(142, 74, 153);
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 10px solid;
+    border-color: #f4f4f9;
+    box-shadow: 0px 5px 10px rgb(82, 82, 82);
+    transition: all 0.5s ease;
+}
+
+.card2:hover {
+    transform: scale(1.05);
+    box-shadow:
+        5px 5px 30px rgb(115, 8, 255),
+        5px 8px 30px rgb(58, 0, 111);
+}
+
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    flex-direction: column
+}
+
+.cabecalho {
+    background-color: #ffffff;
+    border-bottom: 2px solid #f1f1f1;
+    padding: 18px 5%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.cabecalho-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #222222;
+    letter-spacing: -0.5px;
+}
+
+.logo span {
+    color: #d62828;
+}
+
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgb(142, 74, 153);
+    padding: 9px 18px;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: 0.2s ease;
+}
+
